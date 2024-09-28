@@ -11,4 +11,7 @@ plugins {
 }
 
 rootProject.name = "flink-forward-pipelines"
-include("unbounded-state")
+include(
+    "unbounded-data",
+    "unordered-data"
+)

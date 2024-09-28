@@ -14,7 +14,7 @@ dependencies {
 
 application {
     // Define the main class for the application.
-    mainClass = "unbounded.state.Pipeline"
+    mainClass = "unordered.data.Pipeline"
 }
 
 tasks.build {
